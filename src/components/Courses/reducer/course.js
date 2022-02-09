@@ -1,6 +1,6 @@
 import { Switch } from "react-router-dom/cjs/react-router-dom.min";
 import { AddCourse, GetCourse } from "../actions/type";
-const initialState=[]
+const initialState=[{}]
 export default function CourseReducer(courses=initialState, actions){
 const {type,payload}=actions
 switch(type){

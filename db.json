@@ -1,9 +1,54 @@
 {
-    "posts": [
-      {  }
-    ],
-    "comments": [
-      { "id": 1, "body": "some comment", "postId": 1 }
-    ],
-    "profile": { "name": "typicode" }
-  }
+  "posts": [
+    {
+      "id": 1,
+      "name": "nodejs",
+      "price": 100
+    },
+    {
+      "name": "javascript for beginners",
+      "price": "1000",
+      "id": 2
+    },
+    {
+      "name": "redux",
+      "price": "1000",
+      "id": 3
+    },
+    {
+      "name": "Html for beginners",
+      "price": "100",
+      "id": 4
+    },
+    {
+      "name": "css for beginners",
+      "price": "200",
+      "id": 5
+    },
+    {
+      "name": "drupal Advanced",
+      "price": "2000",
+      "id": 6
+    },
+    {
+      "name": "javascript Advanced",
+      "price": "10000",
+      "id": 7
+    },
+    {
+      "name": "HTML advanced",
+      "price": "1000",
+      "id": 8
+    },
+    {
+      "name": "React Js for beginners",
+      "price": "1000",
+      "id": 9
+    },
+    {
+      "name": "React Js advanced",
+      "price": "10000",
+      "id": 10
+    }
+  ]
+}

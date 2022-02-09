@@ -10,10 +10,10 @@ function AddCForm() {
     const Submit=(e)=>{
         e.preventDefault();
         console.log('form data:', formData)
-      CreateCourse(formData);
+      dispatch(CreateCourse(formData));
     }
-  return (<div>
-      <Form>
+  return (<div className='mx-5 d-flex justify-content-center' >
+      <Form className='w-50'>
 
   <Form.Group className="mb-3" controlId="formBasicEmail">
     <Form.Label>Course Name</Form.Label>

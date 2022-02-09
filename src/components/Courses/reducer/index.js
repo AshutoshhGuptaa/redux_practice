@@ -1,5 +1,5 @@
 import { combineReducers}  from 'redux';
 import CourseReducer from './course';
-export default combineReducers({
-    CourseReducer
+export const Reducer= combineReducers({
+  CourseReducer
 })
